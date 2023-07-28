@@ -72,7 +72,8 @@
 
         <div class="navbar-end w-auto ">
           <form action="/action_page.php">
-            <input type="text" name="phone" placeholder="search here...">
+
+            <input class="py-2 px-3 rounded-3xl" type="text" name="phone" placeholder="search here...">
           </form>
         </div>
       </div>
@@ -85,12 +86,13 @@
     <!-- slider or carousel  -->
     <section class="max-w-[1280px] m-auto mt-8">
       <div class="carousel w-full">
-        <div id="slide1" class="carousel-item relative w-full">
+        <div id="slide1" class="grid grid-flow-col carousel-item relative w-full">
           <img src="images/banner1.png" class="w-full" />
           <div
-            class="absolute  text-white bg-opacity-60 bg-slate-800 w-full h-full flex justify-center items-center flex-col">
-            <h1 class="text-7xl max-w-[750px] text-center mx-auto">Exotic tastes at your doorstep</h1>
-            <p>We supply highly quality organic products</p>
+            class="absolute  text-white bg-opacity-60 gap-y-8 bg-slate-800 w-full h-full flex justify-center items-center flex-col">
+            <h3 class="text-6xl max-w-[750px] font-bold text-center mx-auto">Exotic tastes at your doorstep</h3>
+            <p class="text-l font-medium">We supply highly quality organic products</p>
+            <button class="btn text-white bg-[#F85559] border-red-500 uppercase">shop now</button>
 
           </div>
           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -102,8 +104,10 @@
           <img src="images/banner2.png" class="w-full" />
           <div
             class="absolute  text-white bg-opacity-60 bg-slate-800 w-full h-full flex justify-center items-center flex-col">
-            <h1 class="text-7xl">Exotic tastes at your doorstep</h1>
-            <p>We supply highly quality organic products</p>
+            <h3 class="text-6xl max-w-[750px] font-bold text-center mx-auto">Exotic tastes at your doorstep</h3>
+            <p class="text-l font-medium">We supply highly quality organic products</p>
+            <button class="btn text-white bg-[#F85559] border-red-500 uppercase">shop now</button>
+
           </div>
           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide1" class="btn btn-circle">❮</a>
@@ -114,8 +118,10 @@
           <img src="images/banner3.png" class="w-full" />
           <div
             class="absolute  text-white bg-opacity-60 bg-slate-800 w-full h-full flex justify-center items-center flex-col">
-            <h1 class="text-7xl">Exotic tastes at your doorstep</h1>
-            <p>We supply highly quality organic products</p>
+            <h3 class="text-6xl max-w-[750px] font-bold text-center mx-auto">Exotic tastes at your doorstep</h3>
+            <p class="text-l font-medium">We supply highly quality organic products</p>
+            <button class="btn text-white bg-[#F85559] border-red-500 uppercase">shop now</button>
+
           </div>
           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide2" class="btn btn-circle">❮</a>
@@ -126,8 +132,10 @@
           <img src="images/banner4.png" class="w-full" />
           <div
             class="absolute  text-white bg-opacity-60 bg-slate-800 w-full h-full flex justify-center items-center flex-col">
-            <h1 class="text-7xl">Exotic tastes at your doorstep</h1>
-            <p>We supply highly quality organic products</p>
+            <h3 class="text-6xl max-w-[750px] font-bold text-center mx-auto">Exotic tastes at your doorstep</h3>
+            <p class="text-l font-medium">We supply highly quality organic products</p>
+            <button class="btn text-white bg-[#F85559] border-red-500 uppercase">shop now</button>
+
           </div>
           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide3" class="btn btn-circle">❮</a>
@@ -139,7 +147,7 @@
 
     <section class="">
       <div
-        class="flex justify-center p-9 border-red-500 max-w-[800px] bg-white ml-auto mr-auto mt-[-120px] mb-10 relative shadow-md">
+        class="flex justify-center p-9 border-red-500 max-w-[800px] bg-white ml-auto mr-auto mt-[-110px] mb-10 relative shadow-md">
         <img src="images/fruit1.png" alt="">
         <img src="images/fruit2.png" alt="">
         <img src="images/fruit3.png" alt="">
@@ -279,7 +287,7 @@
 
     <!-- footer section  -->
   </main>
-  <footer class="footer footer-center p-10 bg-black text-primary-content">
+  <footer class="footer mt-12 footer-center p-10 bg-black text-primary-content">
     <div>
       <div class="flex gap-2 text-white">
         <img class="w-12 h-14" src="images/logo.png" alt="">
